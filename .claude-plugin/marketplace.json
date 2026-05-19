@@ -1,0 +1,15 @@
+{
+  "name": "turk-dilekce-engine-marketplace",
+  "owner": {
+    "name": "turk-dilekce-engine",
+    "email": "theakambio@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "turk-dilekce-engine",
+      "source": ".",
+      "version": "0.1.0",
+      "description": "Türk hukukunda dilekçe üretiminin niteliğini yükselten retorik motoru. Şablon kullanmaz; sekiz skill, altı ajan, dört slash command. Bağımlılıklar: yargi_mcp, mevzuat_mcp, yoktez_mcp, literatur_mcp."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "turk-dilekce-engine",
+  "version": "0.1.0",
+  "description": "Türk hukukunda dilekçe üretiminin niteliğini yükselten retorik motoru. Şablon kullanmaz; Toulmin argümantasyon kalıbı, anlatı omurgası, preemptive rebuttal, retorik üçgen kalibrasyonu, mahkeme nutku geleneğinden devralınan ölçülü edebî damar ve Magesh anti-halüsinasyon kalkanı ile dilekçeyi içsel olarak inşa eder. Sekiz skill, altı ajan, dört slash command, bir hook. Bağımlılıklar: yargi_mcp, mevzuat_mcp, yoktez_mcp, literatur_mcp.",
+  "author": {
+    "name": "turk-dilekce-engine — Cowork araştırma + mimari tasarım",
+    "email": "theakambio@gmail.com"
+  }
+}
