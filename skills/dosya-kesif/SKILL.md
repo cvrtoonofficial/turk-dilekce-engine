@@ -9,8 +9,8 @@ allowed-tools:
   - Edit
   - Glob
   - Grep
-  - mcp__mevzuat_mcp__*
-  - mcp__yargi_mcp__*
+  - mcp__plugin_turk-dilekce-engine_mevzuat_mcp__*
+  - mcp__plugin_turk-dilekce-engine_yargi_mcp__*
   - mcp__hukuk-rag__*
 ---
 
@@ -31,7 +31,7 @@ Kullanıcı yüklü belgeleri Read ile oku. Eğer hukuk_rag koleksiyonu varsa `m
 Eksik bilgi için kullanıcıya **odaklı** sorular sor — şablon değil. "Tarafların kimliği" tipinde toplu soru sorma; "Davalının ticari sicil numarası dosyada belirtilmiş mi?" tipinde tek tek.
 
 ### 3. Hukuki Sebep Ön-Tespiti
-Olgu örüntüsünden olası hukuki sebep adaylarını çıkar. `mcp__mevzuat_mcp__*` ile ilgili madde tam metnini doğrula. **Atıfı kesinleştirmeden listeleme.**
+Olgu örüntüsünden olası hukuki sebep adaylarını çıkar. `mcp__plugin_turk-dilekce-engine_mevzuat_mcp__*` ile ilgili madde tam metnini doğrula. **Atıfı kesinleştirmeden listeleme.**
 
 ### 4. matter.md Üretimi
 

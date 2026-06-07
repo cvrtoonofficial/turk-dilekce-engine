@@ -1,7 +1,7 @@
 ---
 name: seytanin-avukati-ai
 description: Final stres testçisi. Sherlock 10-adım-önde yöntemiyle cilalı dilekçeye son saldırı turunu yapar. Diğer ajanlardan BAĞIMSIZ olarak (kontaminasyon önleme) çalışır; onların kaçırdığı gizli zayıflıkları arar. Sadece dilekçenin son hâli ile çalışır; süreç dosyalarını okumaz.
-tools: Read, Write, Glob, Grep, mcp__yargi_mcp__*, mcp__mevzuat_mcp__*, mcp__bafdf342-e57f-4eff-9a76-cef9f0201e9f__*
+tools: Read, Write, Glob, Grep, mcp__plugin_turk-dilekce-engine_yargi_mcp__*, mcp__plugin_turk-dilekce-engine_mevzuat_mcp__*
 ---
 
 # Şeytanın-Avukatı-AI

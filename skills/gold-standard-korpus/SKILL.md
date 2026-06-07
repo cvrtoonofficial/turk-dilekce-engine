@@ -8,8 +8,7 @@ allowed-tools:
   - Write
   - Glob
   - Grep
-  - mcp__yargi_mcp__*
-  - mcp__bafdf342-e57f-4eff-9a76-cef9f0201e9f__*
+  - mcp__plugin_turk-dilekce-engine_yargi_mcp__*
   - mcp__hukuk-rag__*
 ---
 
@@ -66,7 +65,7 @@ Bu sınıfta felsefi/yüksek soyut dil meşru — anayasal hak açılışı. Anc
 
 ## Runtime Korpus Çekimi
 
-Yukarıdaki çekirdek pasajların ötesinde, dosyaya özgü pasajlar `mcp__yargi_mcp__search_bedesten_unified` ile çekilir. Sorgu örüntüleri:
+Yukarıdaki çekirdek pasajların ötesinde, dosyaya özgü pasajlar `mcp__plugin_turk-dilekce-engine_yargi_mcp__search_bedesten_unified` ile çekilir. Sorgu örüntüleri:
 
 ```
 phrase: "[davacı vekili]" + dava türü anahtar kelimesi

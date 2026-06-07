@@ -8,12 +8,10 @@ allowed-tools:
   - Write
   - Edit
   - Grep
-  - mcp__yargi_mcp__*
-  - mcp__mevzuat_mcp__*
-  - mcp__bafdf342-e57f-4eff-9a76-cef9f0201e9f__*
-  - mcp__96dc4a19-628d-4d78-b645-8306e9232dcc__*
-  - mcp__417bcc1e-6b4e-414f-a232-c2e87fbb98d6__*
-  - mcp__3f9cf426-181c-4035-93b7-39ad26a99dae__*
+  - mcp__plugin_turk-dilekce-engine_yargi_mcp__*
+  - mcp__plugin_turk-dilekce-engine_mevzuat_mcp__*
+  - mcp__plugin_turk-dilekce-engine_literatur_mcp__*
+  - mcp__plugin_turk-dilekce-engine_yoktez_mcp__*
   - mcp__hukuk-rag__*
 ---
 
@@ -43,13 +41,13 @@ Stanford araştırması, hatta uzmanlaşmış hukuki AI araçlarının (Lexis+ A
 ### Aşama 2: Çapraz Teyit
 
 Her atıf için ilgili MCP'ye sorgu:
-- Yargıtay/Danıştay → `mcp__yargi_mcp__search_bedesten_unified` (esas no + karar no ile arama)
-- AYM bireysel → `mcp__yargi_mcp__search_anayasa_unified` decision_type=bireysel_basvuru
-- AYM norm denetimi → `mcp__yargi_mcp__search_anayasa_unified` decision_type=norm_denetimi
-- AİHM → `mcp__yargi_mcp__search_bedesten_unified` (uygun filtre) veya WebSearch
-- KVKK → `mcp__yargi_mcp__search_kvkk_decisions`
-- Mevzuat → `mcp__mevzuat_mcp__search_within_kanun` veya benzeri tip-uygun arama
-- Doktrin → `mcp__417bcc1e-6b4e-414f-a232-c2e87fbb98d6__search_articles` (DergiPark) + `mcp__3f9cf426-181c-4035-93b7-39ad26a99dae__search_yok_tez_detailed`
+- Yargıtay/Danıştay → `mcp__plugin_turk-dilekce-engine_yargi_mcp__search_bedesten_unified` (esas no + karar no ile arama)
+- AYM bireysel → `mcp__plugin_turk-dilekce-engine_yargi_mcp__search_anayasa_unified` decision_type=bireysel_basvuru
+- AYM norm denetimi → `mcp__plugin_turk-dilekce-engine_yargi_mcp__search_anayasa_unified` decision_type=norm_denetimi
+- AİHM → `mcp__plugin_turk-dilekce-engine_yargi_mcp__search_bedesten_unified` (uygun filtre) veya WebSearch
+- KVKK → `mcp__plugin_turk-dilekce-engine_yargi_mcp__search_kvkk_decisions`
+- Mevzuat → `mcp__plugin_turk-dilekce-engine_mevzuat_mcp__search_within_kanun` veya benzeri tip-uygun arama
+- Doktrin → `mcp__plugin_turk-dilekce-engine_literatur_mcp__search_articles` (DergiPark) + `mcp__plugin_turk-dilekce-engine_yoktez_mcp__search_yok_tez_detailed`
 
 **Doğrulama sonucu üç durumdan biri:**
 - ✓ Doğrulandı (E./K./tarih + mahkeme + içerik özeti tutarlı)

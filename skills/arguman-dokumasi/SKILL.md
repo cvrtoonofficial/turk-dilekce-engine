@@ -7,8 +7,8 @@ allowed-tools:
   - Read
   - Write
   - Edit
-  - mcp__mevzuat_mcp__*
-  - mcp__yargi_mcp__*
+  - mcp__plugin_turk-dilekce-engine_mevzuat_mcp__*
+  - mcp__plugin_turk-dilekce-engine_yargi_mcp__*
   - mcp__hukuk-rag__*
 ---
 
@@ -42,10 +42,10 @@ Anlatı omurgasından doğan her talep sonucu adayını ayrı bir iddia satırı
 Her Claim'e onu destekleyen vakıaları (matter.md → olgu omurgası) eşle. Eksik veri varsa **kullanıcıya işaretle**, doldurma.
 
 ### 3. Warrant Tespiti
-Her Claim için olguyu sonuca bağlayan normatif kuralı `mcp__mevzuat_mcp__*` ile çek. **Maddenin tam metnini al**, parafrazla yetinme. Madde tam metni yoksa o iddia askıdadır.
+Her Claim için olguyu sonuca bağlayan normatif kuralı `mcp__plugin_turk-dilekce-engine_mevzuat_mcp__*` ile çek. **Maddenin tam metnini al**, parafrazla yetinme. Madde tam metni yoksa o iddia askıdadır.
 
 ### 4. Backing Toplama
-`mcp__yargi_mcp__*` ile aynı normu uygulayan üst yargı kararlarından **en az bir**, tercihen iki emsal çek. Yargıtay HGK > Daire > BAM hiyerarşisini koru.
+`mcp__plugin_turk-dilekce-engine_yargi_mcp__*` ile aynı normu uygulayan üst yargı kararlarından **en az bir**, tercihen iki emsal çek. Yargıtay HGK > Daire > BAM hiyerarşisini koru.
 
 ### 5. Qualifier Sezgisi
 Hangi koşulda garanti çalışmaz? Walton critical questions yöntemiyle düşün (bu skill preemptive-rebuttal skill'iyle çapraz çalışır):

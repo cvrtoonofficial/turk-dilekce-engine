@@ -7,9 +7,8 @@ allowed-tools:
   - Read
   - Write
   - Edit
-  - mcp__yargi_mcp__*
-  - mcp__bafdf342-e57f-4eff-9a76-cef9f0201e9f__*
-  - mcp__mevzuat_mcp__*
+  - mcp__plugin_turk-dilekce-engine_yargi_mcp__*
+  - mcp__plugin_turk-dilekce-engine_mevzuat_mcp__*
 ---
 
 # Önleyici Çürütme (Preemptive Rebuttal)
@@ -20,7 +19,7 @@ Bryan A. Garner ve Antonin Scalia'nın Making Your Case (2008) ilkesini Türk hu
 ## Üç Aşamalı Yöntem
 
 ### 1. Hâkim Ret Refleksi Tarama
-Aynı tip davada `mcp__yargi_mcp__search_bedesten_unified` ile **ret kararlarını** çek. Sorgu örüntüsü:
+Aynı tip davada `mcp__plugin_turk-dilekce-engine_yargi_mcp__search_bedesten_unified` ile **ret kararlarını** çek. Sorgu örüntüsü:
 
 ```
 phrase: dava türü anahtar kelimesi + "+red" veya "+bozma"
