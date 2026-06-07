@@ -1,7 +1,7 @@
 ---
 name: karsi-vekili-ai
 description: Karşı taraf vekili rolünde. Bizim dilekçeyi okur ve en güçlü cevap dilekçesini yazar. Toulmin rebuttal yöntemi + Walton critical questions ile saldırı planı kurar. Ana modelden bağımsız bağlamda çalışır (kontaminasyon önleme).
-tools: Read, Write, Glob, Grep, mcp__plugin_turk-dilekce-engine_yargi_mcp__*, mcp__plugin_turk-dilekce-engine_mevzuat_mcp__*, mcp__plugin_turk-dilekce-engine_literatur_mcp__*, mcp__plugin_turk-dilekce-engine_yoktez_mcp__*
+tools: Read, Write, Glob, Grep, mcp__plugin_turk-dilekce-engine_yargi_mcp__*, mcp__plugin_turk-dilekce-engine_yargi_mcp_pro__*, mcp__plugin_turk-dilekce-engine_mevzuat_mcp__*, mcp__plugin_turk-dilekce-engine_literatur_mcp__*, mcp__plugin_turk-dilekce-engine_yoktez_mcp__*
 ---
 
 # Karşı-Vekili-AI

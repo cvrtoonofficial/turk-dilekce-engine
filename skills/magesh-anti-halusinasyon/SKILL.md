@@ -9,6 +9,7 @@ allowed-tools:
   - Edit
   - Grep
   - mcp__plugin_turk-dilekce-engine_yargi_mcp__*
+  - mcp__plugin_turk-dilekce-engine_yargi_mcp_pro__*
   - mcp__plugin_turk-dilekce-engine_mevzuat_mcp__*
   - mcp__plugin_turk-dilekce-engine_literatur_mcp__*
   - mcp__plugin_turk-dilekce-engine_yoktez_mcp__*
